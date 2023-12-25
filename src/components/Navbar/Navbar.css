@@ -1,0 +1,103 @@
+.navbar-toggler {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    transition: .5s ease-in-out;
+    background: none;
+    border: none;
+    padding: 0;
+ 
+  }
+  body{
+    background-color: rgb(237, 237, 237);
+  }
+  
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .toggler-icon {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: brown;
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+  }
+  
+  .middle-bar {
+    margin-top: 15px;
+  }
+ 
+ 
+  
+  .navbar-toggler .top-bar {
+    margin-top: 0;
+    transform: rotate(45deg);
+  }
+  
+  .navbar-toggler .middle-bar {
+    opacity: 0;
+  }
+  
+  .navbar-toggler .bottom-bar {
+    margin-top: 0;
+    transform: rotate(-45deg);
+  }
+  
+  .navbar-toggler.collapsed .top-bar {
+    margin-top: -5px;
+    transform: rotate(0deg);
+  }
+  
+  .navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+  }
+  
+  .navbar-toggler.collapsed .bottom-bar {
+    margin-top: 5px;
+    transform: rotate(0deg);
+  }
+  .navbar-toggler .top-bar,
+.navbar-toggler .middle-bar,
+.navbar-toggler .bottom-bar {
+  transition: .25s ease-in-out;
+}
+
+.logo-navbar{
+    /* font-family: fantasy;
+    font-size: 28px; */
+}
+.input{
+    width: 350px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+}
+.button{
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 8px;
+    padding: 5px;
+    background-color: cornflowerblue;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 2px 0px 0px 2px rgb(233, 233, 233);
+}
+.button-plus{
+color: black;
+}
+
+.profile-img{
+    border-radius: 50%;
+}
+.Active{
+  background-color: white;
+}
